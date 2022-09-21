@@ -4,31 +4,231 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>Engineering</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  link
 </head>
 
 <body>
-  <div class="container">
-    <h1 class="text-center">Phonograph</h1>
-    <img src="img/phonograph.jpg" alt="Phonograph" class="img-fluid rounded mx-auto d-block">
-    <ul>
-      <li>When was the tool or technology developed/invented?
-        1877</li>
-      <li>What need did it address?
-        The ability to record and play music</li>
-      <li>Who developed/invented it?
-        Thomas Edison</li>
-      <li>What advance did it make possible?
-        It made way for the microphone and speaker</li>
-      <li>How has the tool or technology been developed, improved, or expanded beyond its original incarnation?
-        It improved to radio, cassette player, CD, mp3 player, to ipod to</li>
-      <li>What simple machine(s) is it made up of?</li>
-    </ul>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <img src="img/spongebobsus.png" alt="" height="40px"> Sus
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#one" class="nav-link">When</a>
+          </li>
+          <li class="nav-item">
+            <a href="#two" class="nav-link">Need Addressed</a>
+          </li>
+          <li class="nav-item">
+            <a href="#three" class="nav-link">Inventor</a>
+          </li>
+          <li class="nav-item">
+            <a href="#four" class="nav-link">Advancements</a>
+          </li>
+          <li class="nav-item">
+            <a href="#five" class="nav-link">Improvement</a>
+          </li>
+          <li class="nav-item">
+            <a href="#six" class="nav-link">Simple Machine</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Showcase -->
+  <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+      <div class="row">
+        <div class="d-sm-flex align-items-center justify-content-around ">
+          <div>
+            <h1>All about the <span class="text-warning"> Phonograph! </span></h1>
+            <p class="lead my-4">
+              Find out the epic tale of earliest form of the music recorder!
+            </p>
+            <button class="btn btn-primary btn-lg">
+              <a href="#begin" class="text-white" style="text-decoration: none;">Let's Begin!</a>
+            </button>
+          </div>
+          <img class="h-75 d-none d-sm-block" src="img/phonograph.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="bg-primary text-light p-5" id="begin">
+    <div class="container">
+      <div class="d-md-flex justify-content-between align-items-center">
+        <h3 class="mb-3 mb-md-0">About the Phonograph</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learn Sections -->
+  <section id="one" class="p-5">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="img/1877.jpg" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md p-5">
+          <h2>When was the tool or technology developed/invented?</h2>
+          <p>
+            The phonograph was invented in 1877. This device could record your voice by making a needle vibrate. The
+            sound vibrations would go through the needle and make a groove into tin foil. A needle on the other side
+            could play back what you had just recorded. This is the earliest form of record player.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="two" class="p-5 bg-dark text-light">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5">
+          <h2>What need did it address?</h2>
+          <p>
+            The phonograph addressed the need for a music recorder and player. People could now make listen to
+            whatever music they wanted, when they wanted, where they wanted, and for as long as they wanted. People
+            began listening to music differently, people could now analyze lyrics in depth. The phonograph was also
+            instrumental in the development of jazz.
+          </p>
+        </div>
+        <div class="col-md">
+          <img src="img/jazz.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="three" class="p-5">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="img/edison.webp" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md p-5">
+          <h2>Who developed/invented it?</h2>
+          <p>
+            The famous inventor Thomas Edison invented the phonograph. He also invented some of the most essential
+            pieces of technology like the incandescent light bulb, alkaline battery, and one of the earliest motion
+            picture cameras. He held a world-record for his 1,093 patents. He also improved the telegraph and telephone.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="four" class="p-5 bg-dark text-light">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5">
+          <h2>What advance did it make possible?</h2>
+          <p>
+            This advance made it possible to record and listen to music for the first time in history. Instead of having
+            to go to a concert or play by
+            hand, it allowed you to be in your own home and listen to music or record your own for later enjoyment, but
+            the quality was very poor.
+          </p>
+        </div>
+        <div class="col-md">
+          <img src="img/sing.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-primary text-light p-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md">
+          <h3 class="mb-3 mb-md-0">One of the earliest surviving recordings of music</h3>
+          <p>1888 recording of Arthur Sullivan's "The Lost Chord", recorded by George Gouraud, and played at the August
+            14, 1888, press conference that introduced the phonograph to London.</p>
+        </div>
+        <div class="col-md d-flex justify-content-center">
+          <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Edison_cylinder_Lost_Chord.ogg"
+              type="audio/ogg">
+          </audio>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="five" class="p-5">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="img/record.webp" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md p-5">
+          <h2>How has the tool or technology been developed, improved, or expanded beyond its original incarnation?</h2>
+          <p>
+            The phonograph made way for record players on disks which would then go on to be developed into CDs and
+            DVDs. The basic
+            premise about grooves on a rotating object disk has remained the same for over a century. Record players
+            use a disk and a needle and CDs and DVDs use a disk and lasers to get obtain signals. The only thing which
+            has change
+            is the technology and the materials used to create such devices.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="six" class="p-5 bg-dark text-light">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5">
+          <h2>What simple machines is it made up of?</h2>
+          <p>
+            The main simple machine in the phonograph is the wheel and axel. It is a cylinder that is engraved that is
+            used to play back sounds. There is also a lever for the crank handle. There are also screws used to build
+            the device.
+          </p>
+        </div>
+        <div class="col-md">
+          <img src="img/wheel.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-primary text-light p-5">
+    <div class="container">
+      <div class="d-md-flex justify-content-between align-items-center">
+        <h3 class="mb-3 mb-md-0">Thank You! Come again!</h3>
+        <img src="img/indian.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="p-4 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <div class="lead">Copyright &copy; 2022 Corwinner</div>
+
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
   </script>
 </body>
 
